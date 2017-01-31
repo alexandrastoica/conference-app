@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--  Basic  -->
+    <meta charset="utf-8">
+    <title>Conference App</title>
+    <meta name="description" content="">
+    <meta name="author" content="Alexandra Stoica">
+    <!--  Mobile Specific Metas  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--  Links  -->
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Poppins" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="//ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+    <![endif]-->
+
+    <!-- Favicons  -->
+    <link rel="icon" type="image/ico" href="favicon.ico">
+</head>
+<body>
+  <div class="navbar">
+		<div class="sub-navbar">
+      <input type="text" placeholder="search" class="search desktop"/>
+			<ul class="desktop">
+        <li><a href="index.html">Home</a></li>
+				<li><a href="register.html">Register</a></li>
+			</ul>
+
+      <div class="mobile">
+        <ul style="display: none;">
+          <li>
+              <input class="mobile-input" type="text" placeholder="Search" name="qm">
+          </li>
+          <li><a href="feed.html">Feed</a></li>
+  				<li><a href="profile.html">Profile</a></li>
+        </ul>
+        <i class="ion-navicon"></i>
+      </div>
+		</div>
+	</div>
+    <section class="wrapper">
+        <div class="content center column">
+            <h1>Login</h1>
+            <form name="login" class="loginform">
+                <div class="form-error"></div>
+                <label for="username">Username</label>
+                <input type="text" name="username" required>
+                <label for="username">Password</label>
+                <input type="password" name="password" required>
+                <a href="feed.html"><div class="btn submit">Login</div></a>
+            </form>
+        </div>
+    </section>
+    <footer class="footer"><p>All rights reserved</p></footer>
+</body>
+
+</html>

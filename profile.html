@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--  Basic  -->
+    <meta charset="utf-8">
+    <title>Conference App</title>
+    <meta name="description" content="">
+    <meta name="author" content="Alexandra Stoica">
+
+    <!--  Mobile Specific Metas  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!--  Links  -->
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Poppins" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="//ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+    <![endif]-->
+
+    <!-- Favicons  -->
+    <link rel="icon" type="image/ico" href="favicon.ico">
+  </head>
+  <body>
+    <div class="navbar">
+  		<div class="sub-navbar">
+        <input type="text" placeholder="search" class="search desktop"/>
+  			<ul class="desktop">
+          <li><a href="feed.html">Feed</a></li>
+  				<li><a href="profile.html">Profile</a></li>
+  			</ul>
+
+        <div class="mobile">
+          <ul style="display: none;">
+            <li>
+                <input class="mobile-input" type="text" placeholder="Search" name="qm">
+            </li>
+            <li><a href="feed.html">Feed</a></li>
+    				<li><a href="profile.html">Profile</a></li>
+          </ul>
+          <i class="ion-navicon"></i>
+        </div>
+  		</div>
+  	</div>
+    <section class="wrapper">
+      <aside class="sidebar">
+        <div class="sub-sidebar">
+          <i class="ion-person"></i>
+          <h3>John Smith</h3>
+          <ul>
+            <li>Conferences</li>
+            <li>
+              <a href="#">Organise</a>
+            </li>
+            <li>
+              <a href="#">Add Conference</a>
+            </li>
+
+            <li>Settings</li>
+            <li>
+              <a href="profile.html" style="color: rgba(108, 215, 117, 1);">Details</a>
+            </li>
+            <li>
+              <a href="schedule.html">Schedule</a>
+            </li>
+            <li>
+              <a href="index.html">Sign Out</a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <div class="content column">
+        <div class="sub-content">
+          <h2><i class="ion-ios-gear"></i>Profile Settings</h2>
+          <div class="divider">
+            <p>first name</p>
+            <p>John <i class="ion-edit"></i>  </p>
+          </div>
+          <div class="divider">
+            <p>last name</p>
+            <p>Smith <i class="ion-edit"></i>  </p>
+          </div>
+          <div class="divider">
+            <p>email</p>
+            <p>john.smith@email.com <i class="ion-edit"></i>  </p>
+          </div>
+        </div>
+      </div>
+	</section>
+	<footer class="footer"><p>All rights reserved.</p></footer>
+  </body>
+</html>
